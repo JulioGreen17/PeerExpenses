@@ -1,4 +1,4 @@
-# Xpense
+# PeerExpense
 
 ## Table of Contents
 
@@ -11,23 +11,11 @@
 
 ### Description
 
-**Xpense** is an expense tracking app.
-<div>
-    <a href="https://www.loom.com/share/3a434ec256034ffda2e4d654b14f7f5f">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/3a434ec256034ffda2e4d654b14f7f5f-b4d89fd646d5055e-full-play.gif">
-    </a>
-  </div>
+[**PeerExpenses** is an expense tracking app.
 
-### App Evaluation
+https://www.loom.com/share/cab729c31fd142eea579b5609beacdc6?sid=ce0d5cf9-f1bd-4958-8fac-63c18e9707bb
 
-- **Category:** Finance
-- **Mobile:** Yes, it is a mobile application only
-- **Story:** You’re juggling bills, subscriptions, savings goals, maybe even debt. We get it. Our app helps you cut through the noise and actually see your money clearly and simply.
-- **Market:** General audience
-- **Habit:** Daily use
-- **Scope:** Narrow
 
-## Product Spec
 
 ### 1. User Stories (Required and Optional)
 > [!NOTE]
@@ -40,22 +28,17 @@
 * ~~User can add expenses/etc. by pressing the Plus (**+**) icon/button at bottom~~
 * ~~User can sign up for an account~~
 * ~~User can log into an account~~
+* ~~user can set datetime limits~~
 
 **Optional Nice-to-have Stories**
 
 * ~~User can choose between light and dark mode~~
 * ~~User can view generated graphs based on their data~~
-* User can view calendar or something to show spending per week, month, etc.
-* User can view daily/weekly/etc. tips providing useful financial advice, etc.
+* ~~User can view calendar or something to show spending per week, month, etc.~~
 * ~~User can view and modify profile and/or settings page (also has icon/button at bottom)~~
-* User can login to account with ocal authentication framework (i.e. Local FaceID/Biometric Login)
-* User can view notifications page/tab (also has icon/button at bottom)
 * ~~User can separate expenses by category (e.g. food/drink, traveling, entertainment, bills/taxes, etc.)~~
-* User can scan/upload image of receipt to add receipt data to expenses (i.e. automated receipt capture)
 * ~~User can view overview page with [circle] graphs displaying expenses (also has icon/button at bottom)~~
 * ~~User can track and see how expenses differ from one week/month/etc. to another (e.g. mean expenses on food, gas, etc.)~~
-* User can create budgets and keep track of them/notify when the budget is exceeded or close to being exceeded
-* User can use tags feature; similar to categories, except users can define the tag
 
 ### 2. Screen Archetypes
 
@@ -72,6 +55,9 @@
 * User can add expenses (name, amount, category)
 - [x] **Graph Screen**
 * User can view expenses in different forms of data (graph, line graph, chart)
+- [x] **Settings Screen**
+* User can log out and set expense limits
+
   
 ### 3. Navigation
 
@@ -102,17 +88,6 @@
   * Leads to **Graph Page**
 - [x] **Expense Page**
   * Leads to **Home Page**
-
-## Wireframes
-**Light Mode**
-![image](https://github.com/user-attachments/assets/6b7de888-6acd-4e77-bc14-a9b917a34772)
-
-**Dark Mode**
-![image](https://github.com/user-attachments/assets/ba3fda52-046e-45d8-b0ba-40947997ffed)
-
-## Schema 
-
-### Models
 
 #### Expense Model
 | Property  | Type   | Description                                  |
